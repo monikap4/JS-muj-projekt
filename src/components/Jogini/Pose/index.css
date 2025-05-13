@@ -1,0 +1,9 @@
+.pose {
+    padding: 2rem;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }

@@ -1,13 +1,24 @@
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+* {
+  box-sizing: border-box;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../img/rocket.svg);
-  background-size: contain;
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  color: #777;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+
+.app {
+  display: flex;
+  flex-flow: row wrap;
 }

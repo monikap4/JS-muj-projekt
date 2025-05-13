@@ -1,0 +1,29 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+p {
+    text-align: center;
+    line-height: 150%;
+
+}
+
+.intro {
+    width: 50%;
+  }
+
+.intro h2 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.site-title {
+    color: #e56c19;
+    font-weight: 900;
+}
